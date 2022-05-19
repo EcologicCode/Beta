@@ -51,7 +51,7 @@
                   canvas.style.display = 'none';
               },
               showExit: function() {
-                  status.innerHTML = "Application exit";
+                  status.innerHTML = "Application arrêtée";
                   if (qtLoader.exitCode !== undefined)
                       status.innerHTML += " with code " + qtLoader.exitCode;
                   if (qtLoader.exitText !== undefined)
@@ -68,5 +68,6 @@
       }
     </script>
     <script type="text/javascript" src="qtloader.js"></script>
+  En cas de problèmes, désactivez <i>temporairement</i> le/les modes de sécuritée avancé.
   </body>
 </html>
