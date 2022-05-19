@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lang</title>
+	<script type="text/javascript">
+		function getValue() {
+    // Sélectionner l'élément input et récupérer sa valeur
+    var input = document.getElementById("in").value;
+    // Afficher la valeur
+    var URL = "https://ecologiccode-github-io.translate.goog/?_x_tr_sl=fr&_x_tr_tl="+input+"&_x_tr_hl="+input+"&_x_tr_pto=wapp";
+    location.href = URL;
+}
+	</script>
+</head>
+<body>
+<button onClick="location.href='https://ecologiccode-github-io.translate.goog/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp'">English</button>
+<button onClick="location.href='https://ecologiccode-github-io.translate.goog/?_x_tr_sl=fr&_x_tr_tl=uk&_x_tr_hl=uk&_x_tr_pto=wapp'">Ukrainian(українська)</button>
+	<h1>Other ?</h1>
+	<p>English = en, Ukrainian = uk...
+		<input type="text" placeholder="Entrez une valeur ici" id="in">
+    <button type="button" onclick="getValue();">Go</button>
+	</p>
+</body>
+</html>
