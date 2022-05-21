@@ -4,7 +4,7 @@ Séléctionnez un membre et une année : <select id="Membre">
 <option value="Jeanne123456789">Jeanne123456789</option>
   <option value="CaptainPierre">CaptainPierre</option>
 </select><select id="Annee">
-<option value="1">2021</option>
+<option>2021</option>
 </select><input type="button" onclick="ChargerIframe()">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script><br>
 <div id="Iframe"></div><div id="link"></div>
@@ -14,6 +14,6 @@ Séléctionnez un membre et une année : <select id="Membre">
   var Annee = $("#Annee").children("option:selected").val();;
   
   $("#Iframe").html("<iframe src=\"https://skyline.github.com/"+Nom+"/"+Annee+"\" width=\"500\" height=\"500\"></iframe>");
-  $("#link").html("<a href=\"https://skyline.github.com/"+Nom+"/"+Annee+"\">https://skylines.github.com/"+Nom+"/"+Annee+"\"</a>");
+  $("#link").html("<a href=\"https://skyline.github.com/"+Nom+"/"+Annee+"\">https://skylines.github.com/"+Nom+"/"+Annee+"</a>");
                              }
                              </script>
