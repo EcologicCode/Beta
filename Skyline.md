@@ -1,8 +1,8 @@
 # Skyline
 Séléctionnez un membre et une année : <select id="Membre">
-<option value="SuperAtraction">SuperAtraction</option>
-<option value="Jeanne123456789">Jeanne123456789</option>
-  <option value="CaptainPierre">CaptainPierre</option>
+<option value="SuperAtraction">superatraction</option>
+<option value="Jeanne123456789">jeanne123456789</option>
+  <option value="CaptainPierre">captainpierre</option>
 </select><select id="Annee">
 <option>2021</option>
 </select><input type="button" onclick="ChargerIframe()">
