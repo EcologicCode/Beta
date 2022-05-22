@@ -18,10 +18,12 @@ Séléctionnez un membre et une année : <select class="Membre">
   
   $("select.Membre").change(function(){
   Nom = $(this).children("option:selected").val();
+  annee = $("select.Annee").children("option:selected").val();
   $("#link").html("<a href=\"https://skyline.github.com/"+Nom+"/"+annee+"\" target=\"_blank\">aller voir la skyline</a>");
   });
   $("select.Annee").change(function(){
   annee = $(this).children("option:selected").val();
+  Nom = $("select.Membre").children("option:selected").val();
   $("#link").html("<a href=\"https://skyline.github.com/"+Nom+"/"+annee+"\" target=\"_blank\">aller voir la skyline</a>");
   });
                              </script>
