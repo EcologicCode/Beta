@@ -6,7 +6,7 @@ Séléctionnez un membre et une année : <select class="Membre">
 </select><select class="Annee">
   <option>2022</option>
 <option>2021</option>
-</select><input type="button" onclick="ChargerIframe()">
+</select>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div id="link"></div>
 <script type="text/javascript">
@@ -19,9 +19,9 @@ Séléctionnez un membre et une année : <select class="Membre">
   $("select.Membre").change(function(){
   Nom = $(this).children("option:selected").val();
   $("#link").html("<a href=\"https://skyline.github.com/"+Nom+"/"+annee+"\" target=\"_blank\">aller voir la skyline</a>");
-  }
+  });
   $("select.Annee").change(function(){
   annee = $(this).children("option:selected").val();
   $("#link").html("<a href=\"https://skyline.github.com/"+Nom+"/"+annee+"\" target=\"_blank\">aller voir la skyline</a>");
-  }
+  });
                              </script>
