@@ -6,9 +6,8 @@ Séléctionnez un membre et une année : <select class="Membre">
 </select><select class="Annee">
   <option>2022</option>
 <option>2021</option>
-</select>
+</select><div id="link"></div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<div id="link"></div>
 <script type="text/javascript">
   
   var annee;
