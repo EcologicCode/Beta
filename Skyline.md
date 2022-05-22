@@ -8,9 +8,7 @@ Séléctionnez un membre et une année : <select class="Membre">
 <option>2021</option>
 </select><div id="link"></div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript">
-  
-  var annee;
+<script type="text/javascript">var annee;
   var Nom;
   
   $("#link").html("<a href=\"https://skyline.github.com/SuperAtraction/2022\" target=\"_blank\">aller voir la skyline</a>");
